@@ -1,6 +1,6 @@
 ﻿import React, { useState } from 'react';
-import { NavigationConfig } from '@adi/types';
-import { colors, typography } from '@adi/design-system';
+import { NavigationConfig } from '@gadagi/types';
+import { colors, typography } from '@gadagi/design-system';
 import { NavItem } from './NavItem';
 
 interface NavigationProps {

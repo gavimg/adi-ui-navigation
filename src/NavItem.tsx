@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { NavItem as NavItemType } from '@adi/types';
-import { colors, typography, Badge } from '@adi/design-system';
+import { NavItem as NavItemType } from '@gadagi/types';
+import { colors, typography, Badge } from '@gadagi/design-system';
 
 interface NavItemProps {
   item: NavItemType;
@@ -17,7 +17,7 @@ export const NavItem: React.FC<NavItemProps> = ({ item, collapsed }) => {
         alignItems: 'center',
         gap: '10px',
         padding: collapsed ? '10px 12px' : '10px 16px',
-        borderRadius: '6px',
+        borderRgadagius: '6px',
         textDecoration: 'none',
         fontSize: typography.fontSize.sm,
         fontWeight: typography.fontWeight.medium,

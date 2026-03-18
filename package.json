@@ -1,7 +1,7 @@
 ﻿{
-  "name": "@adi/ui-navigation",
+  "name": "@gadagi/ui-navigation",
   "version": "1.0.0",
-  "description": "Sidebar navigation for adi micro-frontends",
+  "description": "Sidebar navigation for gadagi micro-frontends",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -18,17 +18,14 @@
     "dev": "webpack --mode development --watch",
     "prepublishOnly": "npm run build"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.0.0"
   },
   "dependencies": {
-    "@adi/types": "^1.0.0",
-    "@adi/design-system": "^1.0.0"
+    "@gadagi/types": "^1.0.1",
+    "@gadagi/design-system": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
