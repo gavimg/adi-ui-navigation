@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@gadagi/types": "^1.0.1",
-    "@gadagi/design-system": "^1.0.0"
+    "@gadagi/design-system": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",

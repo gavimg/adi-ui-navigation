@@ -17,7 +17,7 @@ export const NavItem: React.FC<NavItemProps> = ({ item, collapsed }) => {
         alignItems: 'center',
         gap: '10px',
         padding: collapsed ? '10px 12px' : '10px 16px',
-        borderRgadagius: '6px',
+        borderRadius: '6px',
         textDecoration: 'none',
         fontSize: typography.fontSize.sm,
         fontWeight: typography.fontWeight.medium,
