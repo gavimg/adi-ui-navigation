@@ -4,7 +4,9 @@
   "description": "Sidebar navigation for gadagi micro-frontends",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack --mode production && tsc -p tsconfig.build.json --emitDeclarationOnly",
     "dev": "webpack --mode development --watch"
@@ -18,7 +20,7 @@
     "react-router-dom": "^6.0.0"
   },
   "dependencies": {
-    "@gadagi/types": "^1.0.1",
+    "@gadagi/types": "^1.0.2",
     "@gadagi/design-system": "^1.0.1"
   },
   "devDependencies": {

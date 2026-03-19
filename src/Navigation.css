@@ -1,0 +1,32 @@
+.navigation {
+  width: 240px;
+  min-height: 100vh;
+  background: #fff;
+  border-right: 1px solid #e2e8f0;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: width 0.2s ease;
+  overflow-x: hidden;
+}
+
+.navigation--collapsed {
+  width: 56px;
+}
+
+.navigation__toggle {
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  color: #94a3b8;
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.navigation__toggle--collapsed {
+  align-self: center;
+}
