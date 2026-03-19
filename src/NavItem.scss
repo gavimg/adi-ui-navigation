@@ -5,16 +5,16 @@
   padding: 10px 16px;
   border-radius: 6px;
   text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #4b5463;
+  font-size: var(--g-font-size-sm);
+  font-weight: var(--g-font-weight-medium);
+  color: var(--g-color-neutral-600);
   background: transparent;
   transition: background 0.15s, color 0.15s;
 }
 
 .nav-item--active {
-  color: #4235a3;
-  background: #f0f0ff;
+  color: var(--g-color-primary-600);
+  background: var(--g-color-primary-50);
 }
 
 .nav-item--collapsed {

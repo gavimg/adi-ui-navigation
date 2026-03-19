@@ -1,7 +1,7 @@
 ﻿import React, { useState } from 'react';
 import { NavigationConfig } from '@gadagi/types';
 import { NavItem } from './NavItem';
-import './Navigation.css';
+import './Navigation.scss';
 
 interface NavigationProps {
   config: NavigationConfig;

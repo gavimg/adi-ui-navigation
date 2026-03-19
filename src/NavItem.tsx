@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom';
 import { NavItem as NavItemType } from '@gadagi/types';
 import { Badge } from '@gadagi/design-system';
-import './NavItem.css';
+import './NavItem.scss';
 
 interface NavItemProps {
   item: NavItemType;

@@ -2,7 +2,7 @@
   width: 240px;
   min-height: 100vh;
   background: #fff;
-  border-right: 1px solid #e2e8f0;
+  border-right: 1px solid var(--g-color-neutral-200);
   padding: 12px 8px;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   border: none;
   cursor: pointer;
   padding: 6px;
-  color: #94a3b8;
+  color: var(--g-color-neutral-400);
   font-size: 18px;
   line-height: 1;
   margin-bottom: 8px;
