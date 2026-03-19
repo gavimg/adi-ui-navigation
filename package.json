@@ -1,22 +1,16 @@
-﻿{
+{
   "name": "@gadagi/ui-navigation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Sidebar navigation for gadagi micro-frontends",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.js"
-    }
-  },
   "files": ["dist"],
   "scripts": {
     "build": "webpack --mode production && tsc -p tsconfig.build.json --emitDeclarationOnly",
-    "dev": "webpack --mode development --watch",
-    "prepublishOnly": "npm run build"
+    "dev": "webpack --mode development --watch"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -33,7 +27,6 @@
     "css-loader": "^7.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^6.0.0",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.0.0",
     "typescript": "^5.0.0",
